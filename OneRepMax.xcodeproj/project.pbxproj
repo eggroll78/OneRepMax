@@ -60,6 +60,7 @@
 		95C623FE29BA559400158B20 = {
 			isa = PBXGroup;
 			children = (
+				9583073B29BFE9B3007B1A6F /* README.md */,
 				95C6240929BA559400158B20 /* OneRepMax */,
 				95C6240829BA559400158B20 /* Products */,
 			);
@@ -83,7 +84,6 @@
 				95C62BAB29BBF73100158B20 /* OneRepMaxStore.swift */,
 				95C6241029BA559500158B20 /* Preview Content */,
 				95C62BBD29BE8F3A00158B20 /* Views */,
-				9583073B29BFE9B3007B1A6F /* README.md */,
 			);
 			path = OneRepMax;
 			sourceTree = "<group>";
