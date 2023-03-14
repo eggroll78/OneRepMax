@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95C6240B29BA559400158B20 /* FitbodAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6240A29BA559400158B20 /* FitbodAppApp.swift */; };
-		95C6240D29BA559400158B20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6240C29BA559400158B20 /* ContentView.swift */; };
+		95C6240B29BA559400158B20 /* OneRepMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6240A29BA559400158B20 /* OneRepMaxApp.swift */; };
+		95C6240D29BA559400158B20 /* OneRepMaxList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6240C29BA559400158B20 /* OneRepMaxList.swift */; };
 		95C6240F29BA559500158B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6240E29BA559500158B20 /* Assets.xcassets */; };
 		95C6241229BA559500158B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6241129BA559500158B20 /* Preview Assets.xcassets */; };
+		95C628D629BAB14800158B20 /* workoutData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95C628D529BAB14800158B20 /* workoutData.txt */; };
+		95C628D929BAB29700158B20 /* WorkoutLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C628D829BAB29700158B20 /* WorkoutLoader.swift */; };
+		95C628DB29BABFA500158B20 /* WorkoutParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C628DA29BABFA500158B20 /* WorkoutParser.swift */; };
+		95C628DE29BADEA800158B20 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C628DD29BADEA800158B20 /* Workout.swift */; };
+		95C62BAC29BBF73100158B20 /* OneRepMaxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BAB29BBF73100158B20 /* OneRepMaxStore.swift */; };
+		95C62BAE29BBF8CB00158B20 /* PersonalRecordForExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BAD29BBF8CB00158B20 /* PersonalRecordForExercise.swift */; };
+		95C62BB029BBFF1700158B20 /* OneRepMaxFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BAF29BBFF1700158B20 /* OneRepMaxFormula.swift */; };
+		95C62BB229BD413C00158B20 /* OneRepMaxCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BB129BD413C00158B20 /* OneRepMaxCard.swift */; };
+		95C62BB829BE296300158B20 /* OneRepMaxDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BB729BE296300158B20 /* OneRepMaxDetails.swift */; };
+		95C62BBF29BE903D00158B20 /* PersonalRecordForDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BBE29BE903D00158B20 /* PersonalRecordForDate.swift */; };
+		95C62BC129BEB3C300158B20 /* WorkoutFileSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BC029BEB3C300158B20 /* WorkoutFileSubscription.swift */; };
+		95C62BC329BEB5E700158B20 /* WorkoutFilePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C62BC229BEB5E700158B20 /* WorkoutFilePublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95C6240729BA559400158B20 /* FitbodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitbodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95C6240A29BA559400158B20 /* FitbodAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbodAppApp.swift; sourceTree = "<group>"; };
-		95C6240C29BA559400158B20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9583073B29BFE9B3007B1A6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95C6240729BA559400158B20 /* OneRepMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneRepMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C6240A29BA559400158B20 /* OneRepMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxApp.swift; sourceTree = "<group>"; };
+		95C6240C29BA559400158B20 /* OneRepMaxList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxList.swift; sourceTree = "<group>"; };
 		95C6240E29BA559500158B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C6241129BA559500158B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95C628D529BAB14800158B20 /* workoutData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = workoutData.txt; sourceTree = "<group>"; };
+		95C628D829BAB29700158B20 /* WorkoutLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLoader.swift; sourceTree = "<group>"; };
+		95C628DA29BABFA500158B20 /* WorkoutParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutParser.swift; sourceTree = "<group>"; };
+		95C628DD29BADEA800158B20 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		95C62BAB29BBF73100158B20 /* OneRepMaxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxStore.swift; sourceTree = "<group>"; };
+		95C62BAD29BBF8CB00158B20 /* PersonalRecordForExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecordForExercise.swift; sourceTree = "<group>"; };
+		95C62BAF29BBFF1700158B20 /* OneRepMaxFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxFormula.swift; sourceTree = "<group>"; };
+		95C62BB129BD413C00158B20 /* OneRepMaxCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxCard.swift; sourceTree = "<group>"; };
+		95C62BB729BE296300158B20 /* OneRepMaxDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxDetails.swift; sourceTree = "<group>"; };
+		95C62BBE29BE903D00158B20 /* PersonalRecordForDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecordForDate.swift; sourceTree = "<group>"; };
+		95C62BC029BEB3C300158B20 /* WorkoutFileSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFileSubscription.swift; sourceTree = "<group>"; };
+		95C62BC229BEB5E700158B20 /* WorkoutFilePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFilePublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +60,7 @@
 		95C623FE29BA559400158B20 = {
 			isa = PBXGroup;
 			children = (
-				95C6240929BA559400158B20 /* FitbodApp */,
+				95C6240929BA559400158B20 /* OneRepMax */,
 				95C6240829BA559400158B20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +68,24 @@
 		95C6240829BA559400158B20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95C6240729BA559400158B20 /* FitbodApp.app */,
+				95C6240729BA559400158B20 /* OneRepMax.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95C6240929BA559400158B20 /* FitbodApp */ = {
+		95C6240929BA559400158B20 /* OneRepMax */ = {
 			isa = PBXGroup;
 			children = (
-				95C6240A29BA559400158B20 /* FitbodAppApp.swift */,
-				95C6240C29BA559400158B20 /* ContentView.swift */,
 				95C6240E29BA559500158B20 /* Assets.xcassets */,
+				95C628D729BAB14E00158B20 /* Data */,
+				95C628DC29BADE9E00158B20 /* Models */,
+				95C62BAF29BBFF1700158B20 /* OneRepMaxFormula.swift */,
+				95C62BAB29BBF73100158B20 /* OneRepMaxStore.swift */,
 				95C6241029BA559500158B20 /* Preview Content */,
+				95C62BBD29BE8F3A00158B20 /* Views */,
+				9583073B29BFE9B3007B1A6F /* README.md */,
 			);
-			path = FitbodApp;
+			path = OneRepMax;
 			sourceTree = "<group>";
 		};
 		95C6241029BA559500158B20 /* Preview Content */ = {
@@ -67,12 +96,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		95C628D729BAB14E00158B20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				95C628D829BAB29700158B20 /* WorkoutLoader.swift */,
+				95C628DA29BABFA500158B20 /* WorkoutParser.swift */,
+				95C628D529BAB14800158B20 /* workoutData.txt */,
+				95C62BC029BEB3C300158B20 /* WorkoutFileSubscription.swift */,
+				95C62BC229BEB5E700158B20 /* WorkoutFilePublisher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		95C628DC29BADE9E00158B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95C628DD29BADEA800158B20 /* Workout.swift */,
+				95C62BAD29BBF8CB00158B20 /* PersonalRecordForExercise.swift */,
+				95C62BBE29BE903D00158B20 /* PersonalRecordForDate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95C62BBD29BE8F3A00158B20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95C6240A29BA559400158B20 /* OneRepMaxApp.swift */,
+				95C6240C29BA559400158B20 /* OneRepMaxList.swift */,
+				95C62BB129BD413C00158B20 /* OneRepMaxCard.swift */,
+				95C62BB729BE296300158B20 /* OneRepMaxDetails.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95C6240629BA559400158B20 /* FitbodApp */ = {
+		95C6240629BA559400158B20 /* OneRepMax */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95C6241529BA559500158B20 /* Build configuration list for PBXNativeTarget "FitbodApp" */;
+			buildConfigurationList = 95C6241529BA559500158B20 /* Build configuration list for PBXNativeTarget "OneRepMax" */;
 			buildPhases = (
 				95C6240329BA559400158B20 /* Sources */,
 				95C6240429BA559400158B20 /* Frameworks */,
@@ -82,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = FitbodApp;
+			name = OneRepMax;
 			productName = FitbodApp;
-			productReference = 95C6240729BA559400158B20 /* FitbodApp.app */;
+			productReference = 95C6240729BA559400158B20 /* OneRepMax.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95C6240229BA559400158B20 /* Build configuration list for PBXProject "FitbodApp" */;
+			buildConfigurationList = 95C6240229BA559400158B20 /* Build configuration list for PBXProject "OneRepMax" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95C6240629BA559400158B20 /* FitbodApp */,
+				95C6240629BA559400158B20 /* OneRepMax */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C628D629BAB14800158B20 /* workoutData.txt in Resources */,
 				95C6241229BA559500158B20 /* Preview Assets.xcassets in Resources */,
 				95C6240F29BA559500158B20 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C6240D29BA559400158B20 /* ContentView.swift in Sources */,
-				95C6240B29BA559400158B20 /* FitbodAppApp.swift in Sources */,
+				95C6240D29BA559400158B20 /* OneRepMaxList.swift in Sources */,
+				95C628D929BAB29700158B20 /* WorkoutLoader.swift in Sources */,
+				95C62BBF29BE903D00158B20 /* PersonalRecordForDate.swift in Sources */,
+				95C62BC329BEB5E700158B20 /* WorkoutFilePublisher.swift in Sources */,
+				95C628DB29BABFA500158B20 /* WorkoutParser.swift in Sources */,
+				95C62BB229BD413C00158B20 /* OneRepMaxCard.swift in Sources */,
+				95C628DE29BADEA800158B20 /* Workout.swift in Sources */,
+				95C62BAE29BBF8CB00158B20 /* PersonalRecordForExercise.swift in Sources */,
+				95C62BB829BE296300158B20 /* OneRepMaxDetails.swift in Sources */,
+				95C62BC129BEB3C300158B20 /* WorkoutFileSubscription.swift in Sources */,
+				95C62BB029BBFF1700158B20 /* OneRepMaxFormula.swift in Sources */,
+				95C6240B29BA559400158B20 /* OneRepMaxApp.swift in Sources */,
+				95C62BAC29BBF73100158B20 /* OneRepMaxStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitbodApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OneRepMax/Preview Content\"";
 				DEVELOPMENT_TEAM = V2M5NJYB87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.FitbodApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cilff..OneRepMax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitbodApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OneRepMax/Preview Content\"";
 				DEVELOPMENT_TEAM = V2M5NJYB87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.FitbodApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cilff..OneRepMax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95C6240229BA559400158B20 /* Build configuration list for PBXProject "FitbodApp" */ = {
+		95C6240229BA559400158B20 /* Build configuration list for PBXProject "OneRepMax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95C6241329BA559500158B20 /* Debug */,
@@ -329,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95C6241529BA559500158B20 /* Build configuration list for PBXNativeTarget "FitbodApp" */ = {
+		95C6241529BA559500158B20 /* Build configuration list for PBXNativeTarget "OneRepMax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95C6241629BA559500158B20 /* Debug */,
